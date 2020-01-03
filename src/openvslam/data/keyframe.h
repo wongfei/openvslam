@@ -267,7 +267,7 @@ public:
     // covisibility graph
 
     //! graph node
-    const std::unique_ptr<graph_node> graph_node_ = nullptr;
+    const std::unique_ptr<graph_node> graph_node_; /// = nullptr;
 
     //-----------------------------------------
     // ORB scale pyramid information

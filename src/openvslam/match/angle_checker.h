@@ -6,7 +6,8 @@
 #include <numeric>
 #include <algorithm>
 
-#include <opencv2/core/fast_math.hpp>
+///#include <opencv2/core/fast_math.hpp>
+#include <opencv2/core.hpp>
 
 namespace openvslam {
 namespace match {

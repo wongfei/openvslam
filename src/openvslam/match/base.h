@@ -6,6 +6,7 @@
 #include <numeric>
 
 #include <opencv2/core.hpp>
+#include <opencv2/features2d.hpp>
 
 namespace openvslam {
 namespace match {

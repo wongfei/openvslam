@@ -3,7 +3,9 @@
 
 #include <list>
 
-#include <opencv2/core/types.hpp>
+///#include <opencv2/core/types.hpp>
+#include <opencv2/core.hpp>
+#include <opencv2/features2d.hpp>
 
 namespace openvslam {
 namespace feature {

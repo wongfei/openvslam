@@ -90,6 +90,10 @@ system::system(const std::shared_ptr<config>& cfg, const std::string& vocab_file
 }
 
 system::~system() {
+    if (system_is_running_) {
+        shutdown();
+    }
+
     global_optimization_thread_.reset(nullptr);
     delete global_optimizer_;
     global_optimizer_ = nullptr;

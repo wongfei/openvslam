@@ -9,7 +9,9 @@
 
 #include <Eigen/Core>
 #include <Eigen/Geometry>
-#include <opencv2/core/types.hpp>
+
+///#include <opencv2/core/types.hpp>
+#include "opencv_compat.h"
 
 namespace openvslam {
 

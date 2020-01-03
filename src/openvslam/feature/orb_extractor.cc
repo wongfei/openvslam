@@ -256,7 +256,8 @@ void orb_extractor::create_rectangle_mask(const unsigned int cols, const unsigne
         const unsigned int x_max = std::round(cols * mask_rect.at(1));
         const unsigned int y_min = std::round(rows * mask_rect.at(2));
         const unsigned int y_max = std::round(rows * mask_rect.at(3));
-        cv::rectangle(rect_mask_, cv::Point2i(x_min, y_min), cv::Point2i(x_max, y_max), cv::Scalar(0), -1, cv::LINE_AA);
+        //cv::rectangle(rect_mask_, cv::Point2i(x_min, y_min), cv::Point2i(x_max, y_max), cv::Scalar(0), -1, cv::LINE_AA);
+        cv::rectangle(rect_mask_, cv::Point2i(x_min, y_min), cv::Point2i(x_max, y_max), cv::Scalar(0), -1);
     }
 }
 

@@ -4,8 +4,9 @@
 #include "openvslam/feature/orb_params.h"
 #include "openvslam/feature/orb_extractor_node.h"
 
-#include <opencv2/core/mat.hpp>
-#include <opencv2/core/types.hpp>
+///#include <opencv2/core/mat.hpp>
+///#include <opencv2/core/types.hpp>
+#include <opencv2/core.hpp>
 
 namespace openvslam {
 namespace feature {
